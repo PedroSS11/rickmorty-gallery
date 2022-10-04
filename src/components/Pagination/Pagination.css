@@ -2,16 +2,10 @@
     justify-content: center;
 }
 
-.btn {
+.btn,
+.page-item,
+.page-link{
     color: green !important;
-}
-
-.page-item {
-    color: green;
-}
-
-.page-link {
-    color: green;
 }
 
 a {
