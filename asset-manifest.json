@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/rickmorty-gallery/static/css/main.f212512e.css",
-    "main.js": "/rickmorty-gallery/static/js/main.b732b49b.js",
-    "static/media/rick.png": "/rickmorty-gallery/static/media/rick.ff55cd777b074a4e29d3.png",
-    "index.html": "/rickmorty-gallery/index.html",
-    "main.f212512e.css.map": "/rickmorty-gallery/static/css/main.f212512e.css.map",
-    "main.b732b49b.js.map": "/rickmorty-gallery/static/js/main.b732b49b.js.map"
+    "main.css": "/static/css/main.2c44c71a.css",
+    "main.js": "/static/js/main.65b0b78b.js",
+    "static/media/rick.png": "/static/media/rick.ff55cd777b074a4e29d3.png",
+    "static/media/portalgun.png": "/static/media/portalgun.0a56d73f3b22a0a371f2.png",
+    "index.html": "/index.html",
+    "main.2c44c71a.css.map": "/static/css/main.2c44c71a.css.map",
+    "main.65b0b78b.js.map": "/static/js/main.65b0b78b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f212512e.css",
-    "static/js/main.b732b49b.js"
+    "static/css/main.2c44c71a.css",
+    "static/js/main.65b0b78b.js"
   ]
 }
