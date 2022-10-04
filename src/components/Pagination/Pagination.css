@@ -3,12 +3,20 @@
 }
 
 .btn,
-.page-item,
-.page-link{
-    color: green !important;
+.page-item{
+    color: #009100 !important;
+}
+
+.page-link {
+    color: #000;
+}
+
+.active>.page-link, .page-link.active {
+    color: black;
+    background: #009100 !important;
 }
 
 a {
-    color: green;
+    color: #009100;
     text-decoration: none;
 }
