@@ -1,0 +1,20 @@
+.pagination {
+    justify-content: center;
+}
+
+.btn {
+    color: green !important;
+}
+
+.page-item {
+    color: green;
+}
+
+.page-link {
+    color: green;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}

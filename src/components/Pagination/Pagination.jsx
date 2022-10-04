@@ -1,5 +1,7 @@
 // PAGINATE
 import ReactPaginate from "react-paginate"
+// CSS
+import './Pagination.css'
 
 const Pagination = ({ pageNumber, setPageNumber, info }) => {
 
@@ -13,8 +15,8 @@ const Pagination = ({ pageNumber, setPageNumber, info }) => {
             previousLabel={'Anterior'}
             nextLabel={'Próximo'}
             pageClassName={'page-item'}
-            previousClassName={'btn btn-outline-primary'}
-            nextClassName={'btn btn-outline-primary'}
+            previousClassName={'btn btn-outline-success'}
+            nextClassName={'btn btn-outline-success'}
             pageLinkClassName={'page-link'}
             activeClassName={'active'}
             breakLabel={'...'}
