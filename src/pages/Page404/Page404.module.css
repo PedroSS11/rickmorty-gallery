@@ -1,0 +1,29 @@
+.page {
+    height: 100vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+}
+
+.page h1 {
+    color: #009100;
+    padding: 2em;
+}
+
+.page a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding: 2em;
+    background-color: #ccc;
+    border-radius: 12px;
+    transition: all .2s ease-in;
+}
+
+.page a:hover {
+    background-color: #272727;
+    color: #009100;
+}

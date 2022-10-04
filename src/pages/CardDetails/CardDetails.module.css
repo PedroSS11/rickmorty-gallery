@@ -1,0 +1,12 @@
+.link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s ease-in;
+    padding: 1em;
+}
+
+.link:hover {
+    color: #0b710b;
+}

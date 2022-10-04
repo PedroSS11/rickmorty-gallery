@@ -1,0 +1,29 @@
+nav {
+    background-color: #121212;
+    padding: 1em;
+    -webkit-box-shadow: 2px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1em;
+    color: #f6f6f6;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transition: all .2s ease-in;
+    margin-left: .4em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    color: #6fff6f
+}
+
+.title h1 {
+    color: #009100;
+}
