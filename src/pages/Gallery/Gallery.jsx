@@ -14,7 +14,6 @@ const Gallery = () => {
 
   const {results: characters, info} = useFetch(`${initialURL}/?page=${pageNumber}`)
 
-  console.log(characters)
 
   return (
     <div className="container my-5">

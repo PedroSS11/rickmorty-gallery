@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav>
       <div className="container d-flex justify-content-between align-items-center">
         <div className={styles.title}>
-          <h1>Rick and Morty Gallery</h1>
+          <Link to='/'><h1>Rick and Morty Gallery</h1></Link>
         </div>
         <ul className='d-flex'>
           <Link to='/'><li>Home</li></Link>
