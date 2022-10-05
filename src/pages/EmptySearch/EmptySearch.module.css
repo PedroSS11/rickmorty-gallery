@@ -1,0 +1,9 @@
+.message {
+    color:#121212;
+    height: 80vh;
+}
+
+.message img {
+    margin-top: 5em;
+    max-width: 400px;
+}

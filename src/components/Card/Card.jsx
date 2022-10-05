@@ -4,12 +4,15 @@ import { Link } from "react-router-dom"
 import styles from './Card.module.css'
 
 const Card = ({ characters }) => {
+
+
+
     return (
 
         <div className='row'>
             {characters && characters.map((item) => (
                 <div key={item.id} className='col mb-4' >
-                    <div className='card shadow' style={{ minWidth: "200px" }}>
+                    <div className={`${styles.custom__card} card `} style={{ minWidth: "200px" }}>
                         <img src={item.image} alt={item.name} />
                         <div className='card-body'>
                             <h5 className='card-title'>{item.name}</h5>

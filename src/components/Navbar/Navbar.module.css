@@ -24,6 +24,9 @@ nav ul li:hover {
     color: #6fff6f
 }
 
-.title h1 {
-    color: #009100;
+.title a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -14,10 +14,10 @@ const CardDetails = () => {
   const { details: character } = useFecthDetails(url)
 
   return (
-    <div className="container-fluid my-4 d-flex justify-content-center align-items-center" style={{height:"70vh"}}>
+    <div className={`${styles.div__card} container-fluid  d-flex justify-content-center align-items-center ` } >
       <div className="row ">
         <div className="col-12">
-          <div className="card text-center shadow-lg" style={{maxWidth:"100%"}}>
+          <div className={` ${styles.custom__card} card text-center`} style={{maxWidth:"100%"}}>
             <img className="img-fluid" src={character.image} alt={character.name} />
             <div className="card-body">
               <h4 className="card-title">{character.name}</h4>

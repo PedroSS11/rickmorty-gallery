@@ -19,7 +19,7 @@ const Home = () => {
         <div className={styles.left__text}>
           <h1>The Rick and Morty API</h1>
           <p>
-            API Rick and Morty é uma API REST e GraphQL baseada no programa de televisão Rick and Morty. Neste app você terá acesso a uma galeria com todos os personagens do desenho, nomes, locais de origem, e mais !
+            API Rick and Morty é uma API REST baseada no programa de televisão Rick and Morty. Neste app você terá acesso a uma galeria com todos os personagens do desenho, nomes, locais de origem, e mais !
           </p>
           <Link to='/gallery' className={styles.link__gun}>Começe a explorar <img src={PortalGun} alt="Portal gun" /></Link>
         </div>

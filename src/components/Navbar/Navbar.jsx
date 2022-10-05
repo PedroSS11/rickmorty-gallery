@@ -2,14 +2,16 @@
 import styles from './Navbar.module.css'
 // ROUTER
 import { Link } from 'react-router-dom';
-
+// LOGO
+import Logo from '../../assets/logo.png'
+import LogoGallery from '../../assets/logo2.png'
 
 const Navbar = () => {
   return (
     <nav>
       <div className="container d-flex justify-content-between align-items-center">
         <div className={styles.title}>
-          <Link to='/'><h1>Rick and Morty Gallery</h1></Link>
+          <Link to='/'><img src={Logo} alt="Logo" style={{maxWidth:"200px"}}/> <img src={LogoGallery} alt="Gallery" style={{maxWidth:"100px"}}/> </Link>
         </div>
         <ul className='d-flex'>
           <Link to='/'><li>Home</li></Link>

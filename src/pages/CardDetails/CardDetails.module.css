@@ -1,3 +1,7 @@
+.div__card {
+    height: 90vh;
+}
+
 .link {
     color: #000;
     font-weight: bold;
@@ -9,4 +13,13 @@
 
 .link:hover {
     color: #0b710b;
+}
+
+.custom__card {
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px 1px #0b710b;
+}
+
+.custom__card img {
+    border-radius: 0.375rem;
 }

@@ -7,6 +7,14 @@
 
 }
 
+.custom__card img {
+    border-radius: 0.375rem;
+}
 .card__config:hover {
     color: #0b710b
+}
+
+.custom__card {
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px 1px #0b710b;
 }
